@@ -40,7 +40,7 @@ const Header = () => {
         </Navbar>
 
         {!loading && <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">Crud Api</NavbarBrand>
+          <NavbarBrand href="/">Crud Samir</NavbarBrand>
           <NavbarToggler onClick={() => { setIsOpen(!isOpen) }} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
